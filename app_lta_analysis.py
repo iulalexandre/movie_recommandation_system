@@ -13,7 +13,7 @@ url = 'https://image.tmdb.org/t/p/original'
 
 # Import des bases que l'ont va utiliser
 movieFrance_full_drop = pd.read_csv("https://raw.githubusercontent.com/iulalexandre/movie_recommandation_system/main/datasets/movieFrance_full_dropV2.csv")
-all_merge = pd.read_csv("/home/skikk/Documents/Formation data/Projet 2/App/all_merge.csv")
+all_merge = pd.read_csv("https://raw.githubusercontent.com/iulalexandre/movie_recommandation_system/main/datasets/all_merge_v2.csv")
 
 # Sidebar pour les filtres de sélection
 with st.sidebar:
